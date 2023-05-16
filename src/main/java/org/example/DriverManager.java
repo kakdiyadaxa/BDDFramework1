@@ -19,6 +19,8 @@ public class DriverManager extends Utils{
         } else if (browserName.equalsIgnoreCase("Edge")) {
             //open edge browser
             driver = new EdgeDriver();
+        }else {
+            System.out.println("Your browser name is wrong or not implemented : "+browserName);
         }
 
         driver.get(loadProp.getProperty("url"));
