@@ -72,16 +72,30 @@
     <version>7.11.1</version>
     <scope>test</scope>
   </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-edge-driver -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-edge-driver</artifactId>
+      <version>4.8.3</version>
+    </dependency>
 
 
 
 
-  <dependency>
+
+    <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.7.1</version>
     <scope>compile</scope>
   </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-firefox-driver</artifactId>
+      <version>4.8.3</version>
+    </dependency>
+
 
 
   </dependencies>

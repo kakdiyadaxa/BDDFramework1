@@ -13,10 +13,10 @@ public class DriverManager extends Utils{
         if (browserName.equalsIgnoreCase("Chrome")){
             //open Chrome browser
             driver =  new ChromeDriver();
-        } else if (browserName.equalsIgnoreCase("firefox")) {
+        } else if (browserName.equalsIgnoreCase("Firefox")) {
             //open firefox browser
             driver = new FirefoxDriver();
-        } else if (browserName.equalsIgnoreCase("edge")) {
+        } else if (browserName.equalsIgnoreCase("Edge")) {
             //open edge browser
             driver = new EdgeDriver();
         }
